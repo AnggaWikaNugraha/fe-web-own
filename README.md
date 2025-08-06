@@ -16,19 +16,32 @@ src/
 │       │   └── ProjectsPage.tsx
 │       ├── service.ts
 │       └── types.ts
-│   ├── post/
 │   ├── blog/
 │   │   ├── components/
 │   │   │   ├── BlogList.tsx
 │   │   │   └── BlogCard.tsx
 │   │   ├── service.ts
 │   │   └── types.ts
+│   ├── about/
+        ├── components/
+        │   ├── AvatarSection.tsx
+        │   ├── InfoSection.tsx
+        │   ├── SkillsSection.tsx
+        │   ├── ExperienceSection.tsx
+        │   ├── EducationSection.tsx
+        │   └── CertificatesSection.tsx
+        ├── hooks/
+        │   └── useAboutData.ts (optional kalau fetch API)
+        ├── service.ts
+        ├── types.ts
 ├── app/
 │   ├── page.tsx
 │   ├── blog/
 │       └── page.tsx
-│   ├── post/
 │   └── projects/
+│       └── page.tsx
+│   └── about/
+│       └── page.tsx
 ├── components/ # button, input, layout global
 └── types/
 

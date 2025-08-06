@@ -1,0 +1,92 @@
+import { UserType } from '../types';
+
+export const getMockUser = (): UserType => ({
+  id: '1',
+  name: 'Angga Nugraha',
+  username: 'anggawika',
+  bio: 'Frontend Engineer passionate about building UI/UX with React & Tailwind.',
+  email: 'angga@example.com',
+  phone: '+62 812-3456-7890',
+  location: 'Jakarta, Indonesia',
+  avatarUrl: 'https://media.licdn.com/dms/image/v2/D5603AQFx0LkAHjx-3w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1716261567983?e=1757548800&v=beta&t=QZrY-jy7s3pRI2hAu9ZD9Ja3g-GOy6KdOF0E0SJYEjE',
+  jobTitle: 'Frontend Engineer',
+  company: 'Talenta Edukasi',
+  website: 'https://anggawika.dev',
+  social: {
+    github: 'https://github.com/anggawika',
+    linkedin: 'https://linkedin.com/in/anggawika',
+    twitter: 'https://twitter.com/anggawika',
+    instagram: 'https://instagram.com/anggawika',
+  },
+  skills: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js'],
+  interests: ['Open Source', 'UI/UX Design', 'Startups'],
+  experience: [
+    {
+      id: 'exp1',
+      company: 'Talenta Edukasi',
+      companyLogoUrl: 'https://media.licdn.com/dms/image/v2/C560BAQESeeSifohmkw/company-logo_100_100/company-logo_100_100/0/1630662965246/pt_bank_rakyat_indonesia_persero_tbk_logo?e=1757548800&v=beta&t=wkyu8C0B7S7p27wf00KixwwwDCYCxxG6GRBxif4fRno',
+      location: 'Jakarta',
+      roles: [
+        {
+          id: 'role1',
+          title: 'Senior Frontend Engineer',
+          employmentType: 'Fulltime',
+          startDate: '2022-01-01',
+          endDate: undefined,
+          duration: '2 years',
+          description: 'Developing web applications using React & Next.js.',
+          skills: ['React', 'Next.js'],
+        },
+        {
+          id: 'role2',
+          title: 'Frontend Engineer',
+          employmentType: 'Fulltime',
+          startDate: '2022-01-01',
+          endDate: undefined,
+          duration: '2 years',
+          description: 'Developing web applications using React & Next.js.',
+          skills: ['React', 'Next.js'],
+        },
+      ],
+    },
+    {
+      id: 'exp2',
+      company: 'Talenta Edukasi',
+      companyLogoUrl: 'https://media.licdn.com/dms/image/v2/C560BAQESeeSifohmkw/company-logo_100_100/company-logo_100_100/0/1630662965246/pt_bank_rakyat_indonesia_persero_tbk_logo?e=1757548800&v=beta&t=wkyu8C0B7S7p27wf00KixwwwDCYCxxG6GRBxif4fRno',
+      location: 'Jakarta',
+      roles: [
+        {
+          id: 'role1',
+          title: 'Senior Frontend Engineer',
+          employmentType: 'Fulltime',
+          startDate: '2022-01-01',
+          endDate: undefined,
+          duration: '2 years',
+          description: 'Developing web applications using React & Next.js.',
+          skills: ['React', 'Next.js'],
+        },
+      ],
+    },
+  ],
+  education: [
+    {
+      id: 'edu1',
+      school: 'Universitas Indonesia',
+      degree: 'S1',
+      fieldOfStudy: 'Informatika',
+      startYear: 2017,
+      endYear: 2021,
+      description: 'Belajar dasar pemrograman dan pengembangan perangkat lunak.',
+    },
+  ],
+  certificates: [
+    {
+      id: 'cert1',
+      title: 'React Developer Certification',
+      issuer: 'Udemy',
+      issueDate: '2023-06-10',
+      credentialUrl: 'https://cert.udemy.com/react-cert',
+    },
+  ],
+  createdAt: '2022-01-01T00:00:00Z',
+});
