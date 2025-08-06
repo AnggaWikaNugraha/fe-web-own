@@ -13,10 +13,16 @@ src/
 │   │   └── types.ts (import dari global bisa juga)
 │   ├── project/
 │   ├── post/
-│   └── blog/
+│   ├── blog/
+│   │   ├── components/
+│   │   │   ├── BlogList.tsx
+│   │   │   └── BlogCard.tsx
+│   │   ├── service.ts
+│   │   └── types.ts
 ├── app/
 │   ├── page.tsx
 │   ├── blog/
+│       └── page.tsx
 │   ├── post/
 │   └── projects/
 ├── components/ # button, input, layout global
