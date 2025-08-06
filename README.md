@@ -11,7 +11,11 @@ src/
 │   │   ├── hooks/
 │   │   ├── service.ts
 │   │   └── types.ts (import dari global bisa juga)
-│   ├── project/
+│   project/
+│       ├── components/
+│       │   └── ProjectsPage.tsx
+│       ├── service.ts
+│       └── types.ts
 │   ├── post/
 │   ├── blog/
 │   │   ├── components/
