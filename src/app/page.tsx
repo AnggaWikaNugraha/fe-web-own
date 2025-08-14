@@ -1,7 +1,7 @@
 import Image from "next/image";
-import ProfileHeader from "./components/homePage/components/header";
-import AboutSection from "./components/homePage/components/about";
-import PostList from "./components/homePage/components/postList";
+import ProfileHeader from "./components/homePage/header";
+import AboutSection from "./components/homePage/about";
+import PostList from "./components/homePage/postList";
 
 export default function Home() {
   return (

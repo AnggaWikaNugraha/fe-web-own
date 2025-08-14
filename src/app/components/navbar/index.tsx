@@ -10,9 +10,9 @@ const Navbar = () => {
           Home
         </Link>
         <div className="space-x-6 text-sm">
-          <Link href="/blog" className="hover:text-gray-400">Blog</Link>
-          <Link href="/projects" className="hover:text-gray-400">Projects</Link>
-          <Link href="/about" className="hover:text-gray-400">About</Link>
+          <Link href="/pages/blog" className="hover:text-gray-400">Blog</Link>
+          <Link href="/pages/projects" className="hover:text-gray-400">Projects</Link>
+          <Link href="/pages/about" className="hover:text-gray-400">About</Link>
         </div>
       </div>
     </nav>
