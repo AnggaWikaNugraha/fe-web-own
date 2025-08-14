@@ -1,4 +1,4 @@
-import { UserType } from '../../types';
+import { UserType } from '../../_types';
 import { Mail, Phone, MapPin, Globe } from "lucide-react";
 
 interface Props {

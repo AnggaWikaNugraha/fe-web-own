@@ -1,12 +1,12 @@
 'use client';
 
-import { getMockUser } from '../components/about/services';
-import AvatarSection from '../components/about/components/avatarSection';
-import InfoSection from '../components/about/components/infoSection';
-import SkillsSection from '../components/about/components/skillSection';
-import ExperienceSection from '../components/about/components/experienceSection';
-import EducationSection from '../components/about/components/educationSection';
-import CertificatesSection from '../components/about/components/certificateSection';
+import { getMockUser } from './_services';
+import AvatarSection from './_components/avatarSection';
+import InfoSection from './_components/infoSection';
+import SkillsSection from './_components/skillSection';
+import ExperienceSection from './_components/experienceSection';
+import EducationSection from './_components/educationSection';
+import CertificatesSection from './_components/certificateSection';
 
 const AboutPage = () => {
     const user = getMockUser();

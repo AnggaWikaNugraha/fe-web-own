@@ -1,4 +1,4 @@
-import { EducationType } from '../../types';
+import { EducationType } from '../../_types';
 
 interface Props {
   educations?: EducationType[];

@@ -1,4 +1,4 @@
-import { UserType } from '../types';
+import { UserType } from '../_types';
 
 export const getMockUser = (): UserType => ({
   id: '1',

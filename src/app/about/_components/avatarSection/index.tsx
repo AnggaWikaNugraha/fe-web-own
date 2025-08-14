@@ -1,4 +1,4 @@
-import { UserType } from '../../types';
+import { UserType } from '../../_types';
 import Image from 'next/image';
 
 interface Props {

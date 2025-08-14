@@ -1,4 +1,4 @@
-import { ExperienceType } from '../../types';
+import { ExperienceType } from '../../_types';
 import Image from 'next/image';
 
 interface Props {

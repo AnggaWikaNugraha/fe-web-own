@@ -1,4 +1,4 @@
-import { CertificateType } from '../../types';
+import { CertificateType } from '../../_types';
 
 interface Props {
   certificates?: CertificateType[];
